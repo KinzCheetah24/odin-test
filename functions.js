@@ -2,5 +2,8 @@ function capitalize(string) {
     return string.toUpperCase();
 }
 
-module.exports = capitalize;
+function reverse(string) {
+    return string.split("").reverse().join("");
+}
 
+module.exports = { capitalize, reverse };
